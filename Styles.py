@@ -220,7 +220,7 @@ div.react-aria-ComboBox button {{
 
 /* The arrow icon itself */
 div.react-aria-ComboBox svg {{
-    fill: #ffffff !important;
+    fill: #0d0d26 !important;
 }}
 
 </style>
