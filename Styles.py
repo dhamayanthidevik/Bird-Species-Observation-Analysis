@@ -1,6 +1,3 @@
-from tkinter import font
-
-
 def get_custom_css(BG, CARD_BG, PINK, BLUE, PURPLE, GREEN,YELLOW, WHITE, BLACK):
  return f"""
 <style>
@@ -203,7 +200,6 @@ div[data-testid="stHeading"] h1 {{
 
 </style>
 """
-from django.contrib.admin import display
 import plotly.graph_objects as go
 def donut_kpi(label, value, pct, color):
     fig = go.Figure(go.Pie(
