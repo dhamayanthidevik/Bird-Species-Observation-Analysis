@@ -197,6 +197,31 @@ div[data-testid="stElementContainer"]:has(
 div[data-testid="stHeading"] h1 {{
     margin-top: -50px !important;
 }}
+/* Outer wrapper — one consistent box */
+div.react-aria-ComboBox {{
+    background-color: {CARD_BG} !important;
+    border: 1px solid {PINK} !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}}
+
+/* Input becomes transparent so the wrapper's background shows through */
+div.react-aria-ComboBox input {{
+    background-color: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+}}
+
+/* The dropdown arrow button — was still default white */
+div.react-aria-ComboBox button {{
+    background-color: transparent !important;
+    border: none !important;
+}}
+
+/* The arrow icon itself */
+div.react-aria-ComboBox svg {{
+    fill: #ffffff !important;
+}}
 
 </style>
 """
