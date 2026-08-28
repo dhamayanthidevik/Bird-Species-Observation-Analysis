@@ -4,7 +4,6 @@ from Styles import get_custom_css, style_fig, donut_kpi
 import plotly.express as px
 import plotly.graph_objects as go
 import json
-from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components
 import sqlite3
 
